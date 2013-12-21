@@ -3,5 +3,8 @@
     = Spree.t(:terms_and_conditions)
   .field
     = form.check_box :terms_and_conditions
-    = form.label "I accept the terms and conditions for the website"
+    = form.label :terms_and_conditions do
+      I accept the
+      = link_to('terms and conditions', '/terms_and_conditions', target: '_blank').html_safe
+      for the website
 
