@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_core', '~> 2.1.3'
   s.add_dependency 'spree_frontend', '~> 2.1.3'
   s.add_dependency 'spree_backend', '~> 2.1.3'
+  s.add_dependency 'haml-rails'
 
   s.add_development_dependency 'capybara', '~> 2.1'
   s.add_development_dependency 'coffee-rails'
@@ -30,4 +31,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'cucumber-rails'
+  s.add_development_dependency 'launchy'
 end

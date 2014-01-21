@@ -12,27 +12,33 @@ Installation
 
 Add spree_terms_and_conditions to your Gemfile:
 
-	ruby gem 'spree_terms_and_conditions'
+```ruby
+gem 'spree_terms_and_conditions'
+```
 
 Bundle your dependencies and run the installation generator:
 
-	shell
-	bundle
-	bundle exec rails g spree_terms_and_conditions:install
-	
+```sh
+bundle
+bundle exec rails g spree_terms_and_conditions:install
+```
+
 Add your terms and conditions page *in your Spree applications public folder*
 
-	echo 'Terms and Conditions' > public/terms_and_conditions.html
+```sh
+echo 'Terms and Conditions' > public/terms_and_conditions.html
+```
 
 Testing
 -------
 
 Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
 
-	shell
-	bundle
-	bundle exec rake test_app
-	bundle exec rspec spec
-
+```sh
+bundle
+bundle exec rake test_app
+bundle exec rspec spec
+bundle exec rake features
+```
 
 Copyright (c) 2013 [name of extension creator], released under the New BSD License
