@@ -1,13 +1,7 @@
-#terms_and_conditions {
-  legend {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 5px;
-    margin-left: 15px;
-  }
+#terms-and-conditions {
+  margin: 0;
 
-  label {
-    margin-left: 10px;
+  a {
+    text-decoration: underline !important;
   }
 }
