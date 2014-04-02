@@ -1,3 +1,5 @@
 require 'spree_core'
+require 'spree_backend'
+require 'spree_frontend'
 require 'spree_terms_and_conditions/engine'
 require 'haml-rails'
